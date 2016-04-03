@@ -27,5 +27,18 @@ public class Test {
 		course.changeClassTime("Jun 15 - 16:10");
 
 
+		/**Test result
+		 	Paid Student 1- Notified new class time: Apr 5 - 18:10
+			Paid Student 2- Notified new class time: Apr 5 - 18:10
+			Free Student 1- Notified new class time: Apr 5 - 18:10
+			Free Student 2- Notified new class time: Apr 5 - 18:10
+			-----------------------------------------------------
+			Paid Student 1- Notified new class time: Apr 10 - 20:10
+			Paid Student 2- Notified new class time: Apr 10 - 20:10
+			-----------------------------------------------------
+			Paid Student 1- Notified new class time: Jun 15 - 16:10
+			Paid Student 2- Notified new class time: Jun 15 - 16:10
+			Paid Student 3- Notified new class time: Jun 15 - 16:10
+		 */
 	}
 }
