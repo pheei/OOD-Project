@@ -16,6 +16,9 @@ public class PaidStudent implements Student{
 		// TODO Auto-generated method stub
 		this.classTime = classTime;
 		System.out.println("Paid Student "+ id + "- Notified new class time: " + classTime);
+		System.out.println("Class ticket link: www.myonlinecourse.org/class/new_course/" + (100000 + (int)(Math.random() * 999999)) );
+		System.out.println();
+
 	}
 
 }
